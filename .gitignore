@@ -67,3 +67,16 @@ __recovery/
 
 # Boss dependency manager vendor folder https://github.com/HashLoad/boss
 modules/
+*.trec
+json-frameworks/json-object/images/img-01.png
+json-frameworks/json-object/images/img-02.png
+json-frameworks/json-object/images/img-03.png
+json-frameworks/json-object/images/img-04.png
+json-frameworks/json-object/images/img-05.png
+json-frameworks/json-object/images/img-06.png
+json-frameworks/json-object/images/logo-facebook.png
+json-frameworks/json-object/images/logo-google.png
+json-frameworks/json-object/images/logo-twitter.png
+json-frameworks/json-object/json-objects.camproj
+json-frameworks/json-object/presentation/presentation.pptx
+json-frameworks/json-object/video/json-objects/json-objects.mp4
