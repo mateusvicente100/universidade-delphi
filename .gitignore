@@ -67,30 +67,3 @@ __recovery/
 
 # Boss dependency manager vendor folder https://github.com/HashLoad/boss
 modules/
-*.trec
-*.camproj
-*.png
-*.pptx
-*.mp4
-*.swf
-json-frameworks/dataset-serialize/images/json-sample.json
-json-frameworks/dataset-serialize/video/dataset-serialize/dataset-serialize.html
-json-frameworks/dataset-serialize/video/dataset-serialize/dataset-serialize_embed.css
-json-frameworks/dataset-serialize/video/dataset-serialize/dataset-serialize_config.xml
-json-frameworks/dataset-serialize/video/dataset-serialize/dataset-serialize_player.html
-json-frameworks/dataset-serialize/video/dataset-serialize/scripts/config_xml.js
-json-frameworks/dataset-serialize/video/dataset-serialize/scripts/techsmith-smart-player.min.js
-json-frameworks/dataset-serialize/video/dataset-serialize/skins/overlay/spritesheet.min.css
-json-frameworks/dataset-serialize/video/dataset-serialize/skins/overlay/techsmith-smart-player.min.css
-templates/samples/Samples.dpr
-templates/samples/Samples.dproj
-templates/samples/src/View.MainMenu.dfm
-templates/samples/src/View.MainMenu.pas
-templates/video/templates/scripts/config_xml.js
-templates/video/templates/scripts/techsmith-smart-player.min.js
-templates/video/templates/skins/overlay/spritesheet.min.css
-templates/video/templates/skins/overlay/techsmith-smart-player.min.css
-templates/video/templates/templates.html
-templates/video/templates/templates_config.xml
-templates/video/templates/templates_embed.css
-templates/video/templates/templates_player.html
