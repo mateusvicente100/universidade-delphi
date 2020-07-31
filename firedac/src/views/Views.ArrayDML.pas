@@ -10,10 +10,6 @@ uses
 type
   TFrmArrayDML = class(TForm)
     pnlToolbar: TPanel;
-    lblTitle: TLabel;
-    Label1: TLabel;
-    Label2: TLabel;
-    imgMenu: TImage;
     dsListaTemporaria: TDataSource;
     DBGridListaTemporaria: TDBGrid;
     lblRegistros: TLabel;
@@ -26,7 +22,7 @@ type
     Label4: TLabel;
     memLog: TMemo;
     DBGrid1: TDBGrid;
-    procedure imgMenuClick(Sender: TObject);
+    Label2: TLabel;
     procedure FormCreate(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
     procedure btnGerarListaTemporariaClick(Sender: TObject);
@@ -101,11 +97,6 @@ end;
 procedure TFrmArrayDML.FormShow(Sender: TObject);
 begin
   FService.qryClientes.Open();
-end;
-
-procedure TFrmArrayDML.imgMenuClick(Sender: TObject);
-begin
-  Close;
 end;
 
 procedure TFrmArrayDML.Log(const AOperacao: string; const AStartTime: TDateTime);

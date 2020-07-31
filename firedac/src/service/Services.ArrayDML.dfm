@@ -31,12 +31,14 @@ object ServiceArrayDML: TServiceArrayDML
       'Password=postdba'
       'Server=localhost'
       'DriverID=pG')
-    Connected = True
     LoginPrompt = False
     Left = 192
     Top = 56
   end
   object FDPhysPgDriverLink: TFDPhysPgDriverLink
+    VendorHome = 
+      'C:\Projetos\Git\mateus-vicente\public\universidade-delphi\fireda' +
+      'c\Win32\Debug\'
     Left = 296
     Top = 56
   end
