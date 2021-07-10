@@ -122,6 +122,15 @@
             <Form>FrmHandlingErrors</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="src\views\Views.Pagination.pas">
+            <Form>FrmPagination</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="src\service\Services.Pagination.pas">
+            <Form>ServicePagination</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>

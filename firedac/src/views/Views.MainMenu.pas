@@ -5,7 +5,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.StdCtrls, Views.ArrayDML, Vcl.ExtCtrls, Vcl.CategoryButtons, Vcl.WinXCtrls,
-  Vcl.Imaging.pngimage, System.ImageList, Vcl.ImgList, System.Actions, Vcl.ActnList, Views.HandlingErrors;
+  Vcl.Imaging.pngimage, System.ImageList, Vcl.ImgList, System.Actions, Vcl.ActnList, Views.HandlingErrors, Views.Pagination;
 
 type
   TFrmMainMenu = class(TForm)
@@ -21,9 +21,11 @@ type
     lblTitle: TLabel;
     Panel1: TPanel;
     Label1: TLabel;
+    actPagination: TAction;
     procedure imgMenuClick(Sender: TObject);
     procedure actArrayDMLExecute(Sender: TObject);
     procedure actHandlingErrorsExecute(Sender: TObject);
+    procedure actPaginationExecute(Sender: TObject);
   private
     FActiveForm: TForm;
     procedure ShowForm(const AFormClass: TComponentClass; var AForm);
@@ -48,6 +50,13 @@ var
   LForm: TFrmHandlingErrors;
 begin
   ShowForm(TFrmHandlingErrors, LForm);
+end;
+
+procedure TFrmMainMenu.actPaginationExecute(Sender: TObject);
+var
+  LForm: TFrmPagination;
+begin
+  ShowForm(TFrmPagination, LForm);
 end;
 
 procedure TFrmMainMenu.imgMenuClick(Sender: TObject);
